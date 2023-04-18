@@ -12,13 +12,13 @@ print("e^",n,"=",result2)
 
 sum = 0
 first_input = int(input("Please enter a number : "))
-def calcSum(n):
+def calculateSum(n):
     global sum
     if n == 0:
         return
     else:
         sum += (-1)**(n+1)/n
-        calcSum(n-1)
+        calculateSum(n-1)
 
-calcSum(first_input)
+calculateSum(first_input)
 print("Sum is :  " , sum)
