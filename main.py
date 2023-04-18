@@ -8,6 +8,9 @@ result2 = sum(result)
 result2 +=1
 print("e^",n,"=",result2)
 
+
+print("------------------------")
+
 #2
 
 sum = 0
